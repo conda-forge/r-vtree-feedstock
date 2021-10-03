@@ -1,4 +1,4 @@
-{% set version = "5.1.9" %}
+{% set version = "5.4.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/vtree_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/vtree/vtree_{{ version }}.tar.gz
-  sha256: b894e77dbdb1b1ddd66d9fc9c0fa879e1f6a0a211c00fa7777088aefde201985
+  sha256: 499f3f7f5e80415d61dd9699e8ba06bc1dd05e0ce8845364c690644e6c4fc70e
 
 build:
   merge_build_host: true  # [win]

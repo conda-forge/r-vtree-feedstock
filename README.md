@@ -1,11 +1,11 @@
-About r-vtree
-=============
+About r-vtree-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-vtree-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nbarrowman/vtree, https://nbarrowman.github.io/vtree
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-vtree-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool for calculating and drawing "variable trees". Variable trees display information about nested subsets of a data frame.
 

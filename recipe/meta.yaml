@@ -1,4 +1,4 @@
-{% set version = "5.6.5" %}
+{% set version = "5.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/vtree_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/vtree/vtree_{{ version }}.tar.gz
-  sha256: 2664396c4b2c95f8868502426b55030e424447a42c2fba02fe5d401c82f25f63
+  sha256: 35397e111972c5dbda81f3b648584562e97381edb5f2fb85d743b78563ac00ba
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
